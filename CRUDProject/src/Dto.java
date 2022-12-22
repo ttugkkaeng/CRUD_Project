@@ -1,4 +1,4 @@
-// 프로그램 파일명: Dto.java, 작성일: 20221221, 최종 마감시간: 10시 40분
+// 프로그램 파일명: Dto.java, 작성일: 20221222, 최종 마감시간: 10시 40분
 // 설명: 사용 변수 Setting 및 생성자, Getter/Setter 생성
 
 public class Dto {

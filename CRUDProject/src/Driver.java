@@ -1,4 +1,4 @@
-// 프로그램 파일명: Driver.java, 작성일: 20221221, 최종 마감시간: 10시 40분
+// 프로그램 파일명: Driver.java, 작성일: 20221222, 최종 마감시간: 10시 40분
 // 설명: java와 DB 연동 파일
 
 
@@ -28,8 +28,9 @@ public class Driver {
 		try {
 
 			Class.forName(DB_DRIVER_CLASS);
+			
+			// url, userID, PWD
 			Connection connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PWD);
-
 			System.out.println("DB Connection 성공!");
 
 
